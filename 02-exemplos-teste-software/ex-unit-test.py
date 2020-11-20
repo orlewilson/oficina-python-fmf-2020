@@ -21,6 +21,9 @@ class MyTest(unittest.TestCase):
 	def test2(self):
 		self.assertEqual(quadrado(-2), 4)
 
+	def test3(self):
+    		self.assertEqual(quadrado(5), 25)
+
 if __name__ == '__main__':
     unittest.main()
 

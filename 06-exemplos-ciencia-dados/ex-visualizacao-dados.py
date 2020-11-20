@@ -24,7 +24,7 @@ df2 = df[(df["price"] >= 0)]
 
 print(df2.groupby("neighbourhood").mean()["price"].sort_values())
 
-df2.groupby("neighbourhood").mean()["price"].sort_values().nlargest(5)
+print(df2.groupby("neighbourhood").mean()["price"].sort_values().nlargest(5))
 
 
 # visualização dos dados lidos

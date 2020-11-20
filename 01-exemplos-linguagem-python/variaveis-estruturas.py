@@ -11,7 +11,8 @@
 a = 3 #número inteiro
 print(a)
 
-b = 3.3 #número decial
+
+b = 3.3 #número decimal
 c = 4 + 5j #número complexo
 
 print(b)
@@ -24,6 +25,7 @@ print (a / b)
 print (a * b)
 print (a ** b) # exponenciação
 
+
 a = int(input('Digite um valor: '))
 
 # condição
@@ -33,12 +35,13 @@ else:
 	print (f'{a} <= 10')
 
 # repetição
+# for x = 0; x < 10; x++ 
 for x in range(0,10):
 	print (x)
 
 x = 0
 while (x < 10):
-	x += 1
+	x += 1 # x = x + 1
 	print(x)
 
 # formas de impressão de dados
@@ -47,8 +50,10 @@ print("Conteúdo das variáveis a e b: %d %f" %(a,b))
 print("Conteúdo das variáveis a e b: %d %2.2f" %(a,b))
 print(f"Conteúdo da variável a: {a}")
 
+
 # palavras
 nome = 'Orlewilson'
+
 nomeAoContrario = nome[::-1]
 
 print(f'Meu nome é {nome} ao contrário é {nomeAoContrario}')

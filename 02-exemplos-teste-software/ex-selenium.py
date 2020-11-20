@@ -19,8 +19,8 @@ class PythonOrgSearch(unittest.TestCase):
 
 	# seleciona o navegador
 	def setUp(self):
-		self.driver = webdriver.Firefox() # firefox
-		#self.driver = webdriver.Chrome() # chome
+		#self.driver = webdriver.Firefox() # firefox
+		self.driver = webdriver.Chrome() # chome
 
 	# caso de teste
 	def test_search_in_python_org(self):
